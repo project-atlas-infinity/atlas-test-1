@@ -4,6 +4,7 @@ import json
 
 def read_file(path):
     """Read text file and return content."""
+    print "\nReading file down"
     with open(path, 'r') as f:
         return f.read()
 
