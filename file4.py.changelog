@@ -1,0 +1,4 @@
+- Converted all `print` statements to `print()` function calls.
+- Replaced the Python 2 built-in `file()` with `open()` for file operations.
+- Replaced the Python 2 built-in `cmp()` function with a custom comparison logic `(x > y) - (x < y)`.
+- Replaced `list.sort(cmp=lambda x, y: cmp(y, x))` with `list.sort(reverse=True)` to achieve descending sort in Python 3.

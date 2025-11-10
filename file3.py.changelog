@@ -1,0 +1,5 @@
+- Converted all `print` statements to `print()` function calls.
+- Replaced `unicode("café", "utf-8")` with a direct string literal `"café"` as Python 3 strings are Unicode by default.
+- Removed the `long()` constructor; Python 3 `int` type handles arbitrary-precision integers.
+- Updated `except Exception, e:` syntax to `except Exception as e:` for exception handling.
+- Changed the division operator `/` to `//` in `divide` function to preserve integer division behavior for integer operands, matching Python 2's default `/` behavior.

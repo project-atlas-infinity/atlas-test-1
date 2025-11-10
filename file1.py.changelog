@@ -1,0 +1,2 @@
+- Converted all `print` statements to `print()` function calls for Python 3 compatibility.
+- Replaced `xrange()` with `range()` for Python 3 compatibility, as `xrange` was removed in Python 3.

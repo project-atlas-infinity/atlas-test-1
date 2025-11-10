@@ -1,0 +1,6 @@
+- Changed `cStringIO` import to `io`.
+- Changed `httplib` import to `http.client`.
+- Changed `urlparse` import to `urllib.parse`.
+- Updated `urlparse.urlparse` to `urllib.parse.urlparse`.
+- Converted all `print` statements to `print()` function calls.
+- Updated `exec` statement syntax from `exec code in globals(), locals()` to `exec(code, globals(), locals())` for Python 3 compatibility.

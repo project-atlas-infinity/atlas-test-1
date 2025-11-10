@@ -1,0 +1,4 @@
+- Changed all `print` statements to `print()` function calls.
+- Replaced `dict.iteritems()` with `dict.items()` for dictionary iteration.
+- Replaced `raw_input()` with `input()` for user input.
+- Updated exception handling syntax from `except Exception, e:` to `except Exception as e:`.
